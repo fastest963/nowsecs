@@ -9,7 +9,7 @@ require('nowsecs');
 ```
 
 ```
-<script type="text/javascript" src="nowsecs.js"></script>
+<script type="text/javascript" src="nowsecs.min.js"></script>
 ```
 
 By [James Hartig](https://github.com/fastest963/)
