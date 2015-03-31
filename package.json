@@ -1,0 +1,24 @@
+{
+  "name": "nowsecs",
+  "version": "0.0.1",
+  "description": "Adds Date.nowSecs() to get current time in seconds",
+  "main": "nowSecs.js",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "nodeunit": "^0.9.0",
+    "require-reload": "^0.2.2"
+  },
+  "scripts": {
+    "test": "nodeunit tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fastest963/nowsecs.git"
+  },
+  "keywords": ["date.now", "seconds", "date.nowsecs", "now", "time"],
+  "author": "James Hartig <fastest963@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
