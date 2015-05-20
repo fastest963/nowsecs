@@ -2,7 +2,7 @@
   "name": "nowsecs",
   "version": "0.0.1",
   "description": "Adds Date.nowSecs() to get current time in seconds",
-  "main": "nowSecs.js",
+  "main": "nowsecs.js",
   "directories": {
     "test": "tests"
   },
