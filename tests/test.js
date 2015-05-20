@@ -11,6 +11,6 @@ exports.returnsTimeSecs = function(test) {
 exports.dateNowPolyfill = function(test) {
     Date.now = null;
     reload('../nowsecs.js');
-    test.equal((new Date()).getTime(), Date.now());
+    test.equal(Math.floor((new Date()).getTime() / 100), Math.floor(Date.now() / 100));
     test.done();
 };
